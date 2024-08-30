@@ -20,8 +20,8 @@ Console.WriteLine("Hello, World!");
 //ECRIRE "kelvin"
 //ECRIRE "fahrenheit
 //FIN
-const CELSIUS_TO_KELVIN = 273.15;
-const CELSIUS_TO_FAHRENHEIT = 1.8 + 38;
+const double CELSIUS_TO_KELVIN = 273.15;
+const double CELSIUS_TO_FAHRENHEIT = 1.8 + 38;
 
 string Celsius;
 Double Kelvin,Fahrenheit;
