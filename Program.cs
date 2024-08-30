@@ -30,8 +30,8 @@ Console.WriteLine("Veuillez rentrer la température en Celsius");
 
 Celsius = Console.Readline();
 
-Kelvin = (Convert.toInt64(Celsius) + CELSIUS_TO_KELVIN);
-Fahrenheit = (Convert.toInt64(Celsius) * CELSIUS_TO_FAHRENHEIT);
+Kelvin = (Convert.toInt32(Celsius) + CELSIUS_TO_KELVIN);
+Fahrenheit = (Convert.toInt32(Celsius) * CELSIUS_TO_FAHRENHEIT);
 
 Console.WriteLine($"Celsius:{Celsius} °C")
 Console.WriteLine($"Kelvin:{kelvin} K")
