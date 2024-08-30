@@ -21,7 +21,7 @@ Console.WriteLine("Hello, World!");
 //ECRIRE "fahrenheit
 //FIN
 const double CELSIUS_TO_KELVIN = 273.15;
-const double CELSIUS_TO_FAHRENHEIT = 1.8 + 38;
+const double CELSIUS_TO_FAHRENHEIT = 1.8;
 
 string Celsius;
 Double Kelvin,Fahrenheit;
@@ -31,7 +31,7 @@ Console.WriteLine("Veuillez rentrer la température en Celsius");
 Celsius = Console.Readline();
 
 Kelvin = (Convert.toInt32(Celsius) + CELSIUS_TO_KELVIN);
-Fahrenheit = (Convert.toInt32(Celsius) * CELSIUS_TO_FAHRENHEIT);
+Fahrenheit = (Convert.toInt32(Celsius) * CELSIUS_TO_FAHRENHEIT+32);
 
 Console.WriteLine($"Celsius:{Celsius} °C")
 Console.WriteLine($"Kelvin:{kelvin} K")
